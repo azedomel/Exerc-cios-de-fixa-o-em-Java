@@ -1,0 +1,19 @@
+//Exercício que recebe valores no console de preço e quantidade do produto, e multiplica para imprimir o valor total.
+import java.util.Scanner;
+public class Principal {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double precoproduto, total;
+        int quantidade;
+
+        System.out.println("Digite o valor do produto: ");
+        precoproduto = sc.nextDouble();
+
+        System.out.println("Digite a quantidade: ");
+        quantidade = sc.nextInt();
+
+        total = precoproduto * quantidade;
+        
+        System.out.println("O valor total é: " + total);
+    }
+}
