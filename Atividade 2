@@ -1,4 +1,4 @@
-//Exercício de média do aluno com duas classes
+//Exercício que imprime o nome digitado no console com duas classes.
 //Classe Principal
 public class Principal {
     public static void main(String[] args) {
