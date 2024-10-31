@@ -1,0 +1,15 @@
+//Exercício que converte o valor digitado em dólares para reais através da multiplicação da taxa do câmbio.
+import java.util.Scanner;
+public class Principal {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        double valor1;
+        double taxacambio = 4.94;
+
+        System.out.print("Digite o valor em real: ");
+        valor1 = scan.nextDouble();
+
+        double valoremreais = valor1 * taxacambio;
+        System.out.println("O valor em reais é: R$ " + valoremreais);
+    }
+}
