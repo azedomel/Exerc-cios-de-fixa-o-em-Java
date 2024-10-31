@@ -1,0 +1,10 @@
+//Exercício que imprime no console uma letra e palavra definida no método.
+public class Principal {
+    public static void main(String[] args) {
+        char letra;
+        String palavra;;
+        letra = 'a';
+        palavra = "Amora";
+        System.out.println("A letra é: " + letra + "\nE a palavra é: " + palavra);
+    }
+}
